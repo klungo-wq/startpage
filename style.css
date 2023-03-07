@@ -71,8 +71,8 @@ body {
 }
 
 ul > li > p {
-    font-weight: bold;
-    border-bottom: 1px solid #ffffff;
+    font-weight: bolder;
+    font-size: large;
     align-content: center;
     text-align: center;
 }
