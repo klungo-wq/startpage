@@ -22,11 +22,6 @@ body {
     height: 100%;
 }
 
-.list {
-    display: flex;
-    flex-direction: row;
-}
-
 .search-box {
     display: flex;
     align-content: center;
@@ -51,24 +46,35 @@ body {
     padding: 0;
     color: #a493da;
     position: absolute; 
-    bottom: 20%;
-    left: 35%;  
+    bottom: 16.4%;
+    left: 37%;  
 }
 
-.nix {
+.tech {
     font-size: large;
     list-style: none;
     padding: 0;
     color: #a493da;
     position: absolute;
-    bottom: 20%;
+    bottom: 16.4%;
     left: 46%;
+}
+
+.music {
+    font-size: large;
+    list-style: none;
+    padding: 0;
+    color: #a493da;
+    position: absolute;
+    right: 34%;
+    bottom: 16.4%;
 }
 
 ul > li > p {
     font-weight: bold;
-    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     align-content: center;
+    text-align: center;
 }
 
 ul > li > a {
@@ -83,5 +89,5 @@ ul > li > a {
 
 ul > li > a:hover {
     transition: 0.15s;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
